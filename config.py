@@ -8,7 +8,7 @@ import os
 # GENERAL SETTINGS
 # ============================================================================
 DRY_RUN = False  # Set to False to enable actual blocking. CAUTION: Test first!
-AUTH_TOKEN = "E1b3zGM1vKMki1cqkjr94x4ifKGQcWTl2Ib6uGLu588r5lmxTsFtWYEQXsyx6yk2"
+AUTH_TOKEN = "****************"
 
 # ============================================================================
 # NETWORK & PORTS (Ubuntu VM)
@@ -43,9 +43,9 @@ EMAIL_ENABLED = False  # Set to True to enable email alerts
 EMAIL_ENABLED = True
 SMTP_SERVER = "smtp.gmail.com"             # Gmail SMTP server (DON'T change this)
 SMTP_PORT = 587                            # Gmail SMTP port (DON'T change this)
-SMTP_USER = "project5testmail123@gmail.com"    # Your Gmail address
-SMTP_PASSWORD = "tipq ejxu cnzb gwag"         # 16-char Gmail App Password
-ALERT_EMAIL = "project5testmail123@gmail.com"  # Recipient email address
+SMTP_USER = ""    # Your Gmail address
+SMTP_PASSWORD = ""         # 16-char Gmail App Password
+ALERT_EMAIL = ""  # Recipient email address
 
 # Email alerts will be sent for:
 EMAIL_ALERT_SEVERITIES = ["High", "Medium", "Low"]  # ["High", "Medium", "Low"]
