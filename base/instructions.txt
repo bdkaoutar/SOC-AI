@@ -1,0 +1,25 @@
+### To detect the attacks make sure to apply the following changes to ufw
+
+sudo ufw enable
+sudo ufw logging on
+sudo ufw logging low
+sudo chmod 644 /var/log/ufw.log
+
+I'm using python3.11.0
+### Install the requirements :
+pip install -r requirements.txt
+
+
+### Claude
+https://claude.ai/share/30683699-99de-4425-bf88-e7a00a8d6d48
+
+
+### Note : before running the agents
+Make sure to change the ip address of the LM_HOST in config.py in both the variable (LM_HOST) and the white list
+
+### The agents you run
+
+python3 analyzer.py
+python3 log_tailer.py
+python3 collector.py
+sudo python3 responder.py // this agents should run as root 
