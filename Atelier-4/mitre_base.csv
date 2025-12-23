@@ -1,0 +1,9 @@
+match_type,match_value,tactique,technique_id,technique_name,description
+category,brute_force,Credential Access,T1110,Brute Force,Multiple failed login attempts from the same IP
+category,port_scan,Discovery,T1046,Network Service Scanning,Scanning of multiple ports indicating reconnaissance
+category,web_fuzz,Reconnaissance,T1595,Active Scanning,Fuzzing of web directories and files
+category,web_fuzz,Initial Access,T1190,Exploit Public-Facing Application,Attempt to exploit web application via fuzzing
+regex,UFW BLOCK.*DPT=.*TCP,Discovery,T1046,Network Service Scanning,UFW blocks indicating port scan
+regex, 404 ,Reconnaissance,T1595,Active Scanning,Multiple 404 responses indicating web fuzzing
+regex,Failed password.*ssh,Credential Access,T1110,Brute Force,Failed SSH authentication attempts
+regex,Invalid user.*ssh,Credential Access,T1110,Brute Force,Attempt to login with invalid user via SSH
