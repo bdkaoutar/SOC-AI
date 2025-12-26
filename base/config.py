@@ -138,3 +138,10 @@ print(f"  - Core agents: log_tailer, collector, analyzer, responder")
 print(f"  - DRY_RUN: {DRY_RUN}")
 print(f"  - LM Studio: {LM_API_URL}")
 print(f"  - Logs monitored: {len(LOGS_TO_MONITOR)}")
+
+# ============================================================================
+# ATELIER A
+# ============================================================================
+
+ENABLE_TRUST_AGENT = True
+TRUST_AGENT_URL = "http://127.0.0.1:6004/calibrate"
