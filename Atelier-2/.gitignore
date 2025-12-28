@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+myenv/
+
+# Logs
+logs/
+*.log
+
+# Backup
+*.backup*
+*.bak
+
+# Temp
+*.tmp
+*.swp
+
+# Docker
+docker_data/
+kafka_data/
+
+# IDE
+.vscode/
+.idea/
