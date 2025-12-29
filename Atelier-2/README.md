@@ -93,12 +93,6 @@ SUPERVISOR_PORT = 6005  # Atelier B
 BRIDGE_PORT = 6011      # Atelier B
 ```
 
-## 📈 Validation
-
-- ✅ Grade A (89%)
-- ✅ 33+ événements traités
-- ✅ Pipeline Kafka complet
-
 ## 🛑 Arrêt
 ```bash
 ./scripts/stop.sh
