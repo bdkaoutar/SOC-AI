@@ -1,0 +1,23 @@
+# Core dependencies for all ateliers
+Flask==3.0.0
+requests==2.31.0
+
+# Optional: Kafka support (Atelier B)
+# Uncomment if using Atelier B
+# kafka-python==2.0.2
+
+# Optional: ML libraries (Atelier C)
+# Uncomment if using Atelier C
+# scikit-learn==1.3.2
+# pandas==2.1.4
+# numpy==1.26.2
+# matplotlib==3.8.2
+# seaborn==0.13.0
+
+# Optional: Calibration (Atelier A)
+# Already covered by scikit-learn above
+# scipy==1.11.4
+
+# Development tools
+# pytest==7.4.3
+# black==23.12.1
