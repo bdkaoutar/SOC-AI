@@ -1,0 +1,9 @@
+tactique,technique_id,technique_name,description,match_type,match_value
+Reconnaissance,T1046,Network Service Scanning,Adversaire scanne les ports pour découvrir les services actifs,category,port_scan
+Reconnaissance,T1046,Network Service Scanning,Adversaire scanne les ports pour découvrir les services actifs,regex,UFW BLOCK.*PROTO=TCP.*DPT
+Credential Access,T1110,Brute Force,L'adversaire tente de deviner les identifiants par force brute,category,brute_force
+Credential Access,T1110,Brute Force,L'adversaire tente de deviner les identifiants par force brute,regex,Failed password.*ssh
+Initial Access,T1190,Exploit Public-Facing Application,L'adversaire tente d'exploiter une application web publique via fuzzing,category,web_fuzz
+Initial Access,T1190,Exploit Public-Facing Application,L'adversaire tente d'exploiter une application web publique via fuzzing,regex," 404 "
+Discovery,T1595,Active Scanning,Scan actif pour identifier les endpoints web (fuzzing),category,web_fuzz
+Discovery,T1595,Active Scanning,Scan actif pour identifier les endpoints web (fuzzing),regex," 404 "
