@@ -41,7 +41,7 @@ ANOMALY_DETECTOR_URL = f"http://localhost:{ANOMALY_DETECTOR_PORT}/detect"  # Ate
 
 # Atelier extension URLs
 TRUST_AGENT_URL = f"http://127.0.0.1:{TRUST_AGENT_PORT}/calibrate"
-MITRE_MAPPER_URL = f"http://127.0.0.1:{MITRE_MAPPER_PORT}/map"
+MITRE_MAPPER_URL = f"http://127.0.0.1:{MITRE_MAPPER_PORT}/mitre_map"
 XAI_EXPLAINER_URL = f"http://127.0.0.1:{XAI_EXPLAINER_PORT}/explain"
 
 # ============================================================================
@@ -130,10 +130,10 @@ LOG_LEVEL = "INFO"
 # ATELIER-SPECIFIC FEATURE FLAGS
 # ============================================================================
 ENABLE_TRUST_AGENT = True       # Atelier A
-ENABLE_KAFKA = False             # Atelier B
+ENABLE_KAFKA = True            # Atelier B
 ENABLE_ANOMALY_DETECTION = True  # Atelier C - ACTIVÉ!
-ENABLE_MITRE_MAPPING = False     # Atelier D
-ENABLE_XAI = False               # Atelier D
+ENABLE_MITRE_MAPPING = True     # Atelier D
+ENABLE_XAI = True               # Atelier D
 
 # ============================================================================
 # ATELIER C - ANOMALY DETECTION SETTINGS
